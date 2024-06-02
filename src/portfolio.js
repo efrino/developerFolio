@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Efrino Wahyu Eko Pambudi",
-  title: "Hi all, I am Ewep",
+  title: "Hi all, I am Efrino",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -272,20 +272,6 @@ const achievementSection = {
       ]
     },
     // {
-    //   title: "Google Assistant Action",
-    //   subtitle:
-    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-    //   image: require("./assets/images/googleAssistantLogo.webp"),
-    //   imageAlt: "Google Assistant Action Logo",
-    //   footerLink: [
-    //     {
-    //       name: "View Google Assistant Action",
-    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-    //     }
-    //   ]
-    // },
-
-    // {
     //   title: "PWA Web App Developer",
     //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
     //   image: require("./assets/images/pwaLogo.webp"),
@@ -304,59 +290,53 @@ const achievementSection = {
 
 // Blogs Section
 
-// const blogSection = {
-//   title: "Blogs",
-//   subtitle:
-//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-//   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-//   blogs: [
-//     {
-//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-//       description:
-//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-//     },
-//     {
-//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-//       title: "Why REACT is The Best?",
-//       description:
-//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+const blogSection = {
+  title: "Blogs",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  blogs: [
+    {
+      url: "https://digitalktp.my.id",
+      title: "Masih dalam pengembangan yaa .. ",
+      description:
+        "Sabar ya bosku .."
+    },
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 // Talks Sections
 
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji(
-//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-//   ),
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
 
-//   talks: [
-//     {
-//       title: "Build Actions For Google Assistant",
-//       subtitle: "Codelab at GDG DevFest Karachi 2019",
-//       slides_url: "https://bit.ly/saadpasta-slides",
-//       event_url: "https://www.facebook.com/events/2339906106275053/"
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+  talks: [
+    {
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
 
 // Podcast Section
 
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+const podcastSection = {
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: [
-//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+  // Please Provide with Your Podcast embeded Link
+  podcast: [
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
 
 // Resume Section
 const resumeSection = {
@@ -379,13 +359,13 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "@efrino", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
-  achievementSection, bigProjects, contactInfo, educationInfo, greeting, illustration, isHireable, openSource, resumeSection, skillsSection, socialMediaLinks,
-  splashScreen, techStack, twitterDetails, workExperiences
+  achievementSection, bigProjects, blogSection, contactInfo, educationInfo, greeting, illustration, isHireable, openSource, podcastSection, resumeSection, skillsSection, socialMediaLinks,
+  splashScreen, talkSection, techStack, twitterDetails, workExperiences
 };
 
