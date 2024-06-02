@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Efrino Wahyu Eko Pambudi",
+  title: "Hi all, I am Ewep",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1h5M_NbLd4OhvekzZ9zovSx2qdSaXAV3k/edit?usp=sharing&ouid=100695015663708298269&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/efrino",
+  linkedin: "https://www.linkedin.com/in/efrinowep/",
+  gmail: "efrinowep@gmail.com",
+  gitlab: "https://gitlab.com/efrino",
+  instagram: "https://www.instagram.com/efrinowep_",
+  // medium: "https://medium.com/@efrino",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -126,23 +126,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "SMA N 1 SRAGEN",
+      logo: require("./assets/images/logosmansa.png"),
+      subHeader: "Mathematics and Science",
+      duration: "July 2018 - May 2021",
+      desc: "Leader of Team Web #9",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "•	Be responsible for all activities carried out by the web team during events.",
+        "•	Assign tasks to a team member based on the duty schedule.",
+        "•	Protect and uphold the school's reputation while managing the official school social media accounts.",
+        "•	Adhere to journalistic principles and also be creative to make the school's online presence look appealing and friendly."
+
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Politeknik Negeri Semarang",
+      logo: require("./assets/images/logopolines.png"),
+      subHeader: "Undergraduate in Computer Science",
+      duration: "September 2022 - Now",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Mobile Development, IoT, Web Development",
+      descBullets: ["Learning and Practicing everyday, everywhere and EveryTIMEEE"]
     }
   ]
 };
@@ -153,7 +156,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -217,24 +220,24 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "DIKTE",
+      projectDesc: "Prototipe Project Essay Mandalika yang telah meraih Silver Award",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://digitalktp.my.id/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Moodle",
+      projectDesc: "Learning Management System menggunakan moodle berdasarkan PBL yang saya kerjakan saat belajar di Politeknik Negeri Batam",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://digitalktp.my.id/moodle/"
         }
       ]
     }
@@ -372,36 +375,21 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+62-82243135401",
+  email_address: "efrinowep@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "@efrino", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
-  illustration,
-  greeting,
-  socialMediaLinks,
-  splashScreen,
-  skillsSection,
-  educationInfo,
-  techStack,
-  workExperiences,
-  openSource,
-  bigProjects,
-  achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
-  contactInfo,
-  twitterDetails,
-  isHireable,
-  resumeSection
+  achievementSection, bigProjects, blogSection, contactInfo, educationInfo, greeting, illustration, isHireable, openSource, podcastSection, resumeSection, skillsSection, socialMediaLinks,
+  splashScreen, talkSection, techStack, twitterDetails, workExperiences
 };
+
