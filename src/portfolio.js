@@ -157,15 +157,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "90%"
+      progressPercentage: "93%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -218,7 +218,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/logodikte.png"),
       projectName: "DIKTE",
       projectDesc: "Prototipe Project Essay Mandalika yang telah meraih Silver Award",
       footerLink: [
@@ -230,7 +230,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/logomoodle.png"),
       projectName: "Moodle",
       projectDesc: "Learning Management System menggunakan moodle berdasarkan PBL yang saya kerjakan saat belajar di Politeknik Negeri Batam",
       footerLink: [
@@ -257,8 +257,8 @@ const achievementSection = {
       title: "Silver Medal NusantaraMuda Mandalika",
       subtitle:
         "DIKTE : Mendapatkan Medali Silver di Bidang Sosial Politik dengan Sentuhan Web Development",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      image: require("./assets/images/logosilver.png"),
+      imageAlt: "Sertifikat Lomba Essay Mandalika",
       footerLink: [
         {
           name: "Certification",
