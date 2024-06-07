@@ -168,7 +168,7 @@ const techStack = {
       progressPercentage: "80%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -177,13 +177,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Web Developer",
-      company: "PT. PCI Elektronik Internasional",
-      companylogo: require("./assets/images/logopci.png"),
-      date: "March, 1st",
-      desc: "Learning Management System",
+      role: "External Auditor of Kimia Farma",
+      company: "KAP Gatot Permadi, Azwir & Abimail",
+      companylogo: require("./assets/images/logogpa.png"),
+      date: "24 Desember 2023 - 7 Januari 2024",
+      // desc: "External Auditor of Kimia Farma Jawa Tengah",
       descBullets: [
-        "Pada bidang web development kali ini, saya membuat sebuah Learning Management System pada PBL yang diberikan oleh kampus dengan klien PT. PCI Electronik Internasional "
+        "Draft an agreement with the pharmacy staff for collaboration in sample counting, including signatures and an agreement letter from the headquarters.","Sample several items from various shelves to validate the data from the headquarters against the on-site data.",
+        "Prepare a discrepancy report based on all the counted data, and then conduct interviews with the staff to understand the reasons for the discrepancies."
       ]
     },
     // {
@@ -230,8 +231,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/logomoodle.png"),
-      projectName: "Moodle",
+      image: require("./assets/images/logopci.png"),
+      projectName: "Learning Management System",
       projectDesc: "Learning Management System menggunakan moodle berdasarkan PBL yang saya kerjakan saat belajar di Politeknik Negeri Batam",
       footerLink: [
         {
@@ -262,7 +263,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1Mxe-TdhFu5caIq1Kq-CAS4xAfYCJRo4R/view?usp=sharing"
         }
         // {
         //   name: "Award Letter",
@@ -342,7 +343,9 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
+  resume:[
+    "https://drive.google.com/file/d/1eb5t81tw22Jtrip0yT_0RXPS5iiE7ZT9/view?usp=sharing"],
+  
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
@@ -352,7 +355,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+62-82243135401",
-  email_address: "efrinowep@gmail.com"
+  email_address: "efrinowep@gmail.com",
 };
 
 // Twitter Section
